@@ -1,0 +1,26 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #1e1e2f, #2e2e48);
+  min-height: 100vh;
+}
+
+textarea {
+  resize: none;
+  transition: all 0.3s ease;
+}
+
+textarea:focus {
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+}
+
+.card {
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,0.1);
+  transition: all 0.4s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+}
